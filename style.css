@@ -26,24 +26,25 @@ td:nth-child(odd) {
     border: 5px solid #f05712;
 }
 
+div {
+    width: 35px;
+    height: 35px;
+}
+
 tr:nth-child(odd) td:nth-child(even) div{
     background-color: #2cd64d;
-    border: 15px solid #2cd64d;
 }
 
 tr:nth-child(even) td:nth-child(odd) div{
     background-color: #2cd64d;
-    border: 15px solid #2cd64d;
 }
 
 td:nth-child(even) div {
     background-color: #f05712;
-    border: 15px solid #f05712;
 }
 
 td:nth-child(odd) div {
     background-color: #f05712;
-    border: 15px solid #f05712;
 }
 
 
